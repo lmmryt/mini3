@@ -1,0 +1,14 @@
+
+登陆：https://g301349b62.wicp.vip/xcx_web/LoginServlet?userId=444&name=%E6%B5%8B%E8%AF%9522111&img=wu
+添加一级评论：https://g301349b62.wicp.vip/xcx_web/AddRemarkServlet?userId=111&content=%E8%BF%99%E6%98%AF%E6%B5%8B%E8%AF%95%E8%AF%84%E8%AE%BA2
+添加2级评论：https://g301349b62.wicp.vip/xcx_web/AddRemarkServlet?userId=333&content=%E8%BF%99%E6%98%AF%E6%B5%8B%E8%AF%95%E8%AF%84%E8%AE%BA2&commentId=8&replyUser=111&replyName=%E6%B5%8B%E8%AF%95
+查看所有评论：https://g301349b62.wicp.vip/xcx_web/GetRemarkServlet
+查看个别id评论：https://g301349b62.wicp.vip/xcx_web/GetRemarkServlet?userId=111
+
+
+登陆.参数：userId，name，img
+添加一级评论参数：userId,content
+添加二级评论：userId（回复id）,content,replyUser(被回复的用户id),replyName(被回复的用户名),commentId(一级评论id)
+查看所有评论。不需要参数
+查看某个用户的评论（查询的是一级评论）：userId
+

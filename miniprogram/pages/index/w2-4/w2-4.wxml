@@ -1,0 +1,11 @@
+<!--pages/index/w2-4/w2-4.wxml-->
+<scroll-view class="exercise" scroll-y='true'>
+  <block wx:for="{{list}}" wx:for-index="idx" wx:for-item="itemName">
+    <view class="detail" >
+      <view class="title"><text>{{itemName.title}}</text></view>
+      <view class="photo01"><image src="{{itemName.photo01}}"></image></view>
+      <view class="photo02"><image src="{{itemName.photo02}}"></image></view>
+      <view class="content"><text>{{itemName.content}}</text></view>
+    </view>
+  </block>
+</scroll-view>

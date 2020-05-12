@@ -1,0 +1,8 @@
+<view class="video_menu">
+  <view class="title"></view>
+    <view class="video-btns">
+    <button bindtap="gotow1">第一周至第二周</button>
+    <button bindtap="gotow2">第二周至第四周</button>
+    <button bindtap="gotow4">第四周至第六周</button>
+  </view>
+</view>

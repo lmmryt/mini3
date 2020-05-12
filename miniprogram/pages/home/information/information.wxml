@@ -1,0 +1,4 @@
+<!--pages/home/information/information.wxml-->
+<view>
+<button>刷新</button>
+</view>

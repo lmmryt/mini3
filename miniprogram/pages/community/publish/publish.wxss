@@ -1,0 +1,31 @@
+/* pages/community/publish/publish.wxss */
+.page{
+  background-color:white;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+.detaildemand{
+  margin-left: 30rpx;
+  word-wrap:break-word;
+  word-spacing:30rpx;
+  margin-right: 30rpx;
+  height: 400rpx;
+  margin-top: 20rpx;
+  border-bottom: 1px solid #ececec;
+} 
+
+/* 按钮样式 */
+.buttonview{
+  text-align: center; 
+  margin-top: 50rpx;
+  margin-bottom: 50rpx;
+}
+.buttonsize{
+  margin-top: 30rpx;
+  width: 90%;
+  margin-left: 6%;
+  line-height: 100rpx;
+  height: 100rpx;
+  font-size: 50rpx;
+} 

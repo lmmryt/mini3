@@ -1,0 +1,125 @@
+/* pages/community/community.wxss */
+
+.bottomrow{
+  width: 100%;
+  height: 9%;
+  bottom: 0rpx;
+  position: fixed;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+}
+.bottomtab{
+  width: 250rpx;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.bottomImg{
+  margin-top: 10rpx;
+  width:100rpx;
+  height: 100rpx;
+}
+page{
+  background-color: #EFEFEF;
+}
+.scbg{
+  background-color: #EFEFEF;
+  width: 100%;
+  height: 91%;
+  right: 0rpx;
+  top: 0rpx;
+  position: absolute;
+}
+.box{
+  width: 100%;
+  background-color: white;
+  padding-top: 30rpx;
+}
+.first_block{
+  height: 150rpx;
+  margin-left: 4%;
+  margin-right: 4%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.touxiang{
+  width: 130rpx;
+  height: 130rpx;
+  margin-right: 30rpx;
+}
+.person{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+.name{
+  font-size: 50rpx;
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+}
+.showtime{
+  font-size: 30rpx;
+  color: rgb(173, 175, 177);
+  font-weight: bold;
+}
+.second_block{
+  margin-top: 10rpx;
+  margin-left: 4%;
+  margin-right: 4%;
+  padding-bottom: 20rpx;
+  border-bottom: 5rpx solid#BBBBBB
+}
+.content{
+  font-size: 40rpx;
+  color: #101010;
+  word-break: break-all;
+}
+.third_block{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-left: 4%;
+  margin-right: 4%;
+}
+
+.third_block image{
+  width: 70rpx;
+  height: 70rpx; 
+  color: #DCDCDC;
+}
+
+.comment{
+  margin-left: 4%;
+  border-bottom: 3rpx solid #BBBBBB;
+  display: flex;
+  justify-content: flex-start;
+  background-color:#DCDCDC;  
+  display: flex;
+  flex-direction: column;
+  font-size: 36rpx;
+  
+}
+.comment_1{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.comment_user{
+  font-size: 36rpx;
+  color: rgb(35, 93, 150);
+  font-weight: bold;
+}
+.comment_time{
+  font-size: 30rpx;
+  color: black;
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 4%;
+}

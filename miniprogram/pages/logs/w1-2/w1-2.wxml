@@ -1,0 +1,9 @@
+<!--pages/logs/w1-2/w1-2.wxml-->
+<scroll-view class="video_page" scroll-y='true'>
+  <block wx:for="{{list}}" wx:for-index="idx" wx:for-item="itemName">
+    <view class="video_W1-2">
+      <view class="title"><text>{{itemName.title}}</text></view>
+      <video class="video_content" src="{{itemName.VideoUrl}}"></video>
+    </view>
+  </block>
+</scroll-view>

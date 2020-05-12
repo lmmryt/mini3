@@ -1,0 +1,4 @@
+<!--pages/logs/logs.wxml-->
+<text>pages/logs/logs.wxml</text>4
+
+<video src="{{url}}" style='width:100%'></video> 

@@ -1,0 +1,35 @@
+<!--pages/home/home.wxml-->
+<view class="user">
+  <image src="{{path}}" style="height:200rpx;width:200rpx"></image>
+  <text>{{name}}</text>
+</view>
+<!-- 需要使用 button 来授权登录 -->
+<button wx:if="{{showIpt}}" open-type="getUserInfo"  bindgetuserinfo="bindGetUserInfo" type="primary">授权登录
+</button>
+<!--<view wx:else>请升级微信版本</view> -->
+
+
+<view class="my_tool">
+  <view class="b2" bindtap="b2">
+      <image src="/static/evaluation.png"></image>
+      <text>我的评估</text>
+      <view class='arrow'></view>
+  </view>
+  <view class="b3" bindtap="b3">
+      <image src="/static/feedback.png"></image>
+      <text>提交反馈</text>
+      <view class='arrow'></view>
+  </view>
+  <view class="b4" bindtap="b4">
+      <image src="/static/information.png"></image>
+      <text>消息回复</text>
+      <view class='arrow'></view>
+  </view>
+  <view class="b5" bindtap="b5">
+      <image src="/static/collection.png"></image>
+      <text>我的收藏</text>
+      <view class='arrow'></view>
+  </view>
+  
+</view>  
+

@@ -1,0 +1,72 @@
+{
+  "pages": [
+    "pages/community/community",
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/problem/problem",
+    "pages/home/home",
+    "pages/home/evaluation/evaluation",
+    "pages/home/feedback/feedback",
+    "pages/home/information/information",
+    "pages/index/w1-2/w1-2",
+    "pages/index/w2-4/w2-4",
+    "pages/index/w4-6/w4-6",
+    "pages/logs/w1-2/w1-2",
+    "pages/logs/w2-4/w2-4",
+    "pages/logs/w4-6/w4-6",
+    "pages/problem/DVT/DVT",
+    "pages/problem/mulnutrition/mulnutrition",
+    "pages/problem/pain/pain",
+    "pages/problem/ankylosis/ankylosis",
+    "pages/problem/anxiety/anxiety",
+    "pages/home/collection/collection",
+    "pages/community/publish/publish",
+    "static/w2-4_photo/w2-4",
+    "static/w1-2_video/w1-2",
+    "static/w2-4_video/w2-4"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#000000",
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "骨科",
+    "enablePullDownRefresh": false
+  },
+  "tabBar": {
+    "borderStyle": "black",
+    "selectedColor": "#36648B",
+    "backgroundColor": "#FFFFFF",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "图文讲解",
+        "iconPath": "static/tabBar/index_icon.png",
+        "selectedIconPath": "static/tabBar/index_icon.png"
+      },
+      {
+        "pagePath": "pages/logs/logs",
+        "text": "视频教程",
+        "iconPath": "static/tabBar/logs_icon.png",
+        "selectedIconPath": "static/tabBar/logs_icon.png"
+      },
+      {
+        "pagePath": "pages/community/community",
+        "text": "交流社区",
+        "iconPath": "static/tabBar/community.png",
+        "selectedIconPath": "static/tabBar/community.png"
+      },
+      {
+        "pagePath": "pages/problem/problem",
+        "text": "常见问题",
+        "iconPath": "static/tabBar/problem_icon.png",
+        "selectedIconPath": "static/tabBar/problem_icon.png"
+      },
+      {
+        "pagePath": "pages/home/home",
+        "text": "个人中心",
+        "iconPath": "static/tabBar/home_icon.png",
+        "selectedIconPath": "static/tabBar/home_icon.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap56.json"
+}

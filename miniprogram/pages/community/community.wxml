@@ -1,0 +1,34 @@
+<view class="bottomrow">
+  <view class="centerimg" bindtap="publish">
+    <image class="bottomImg" src="/static/add.png"></image>
+  </view>
+</view>
+
+<scroll-view class="scbg" scroll-y='true'>
+  <block wx:for="{{list}}" wx:for-index="idx" wx:for-item="itemName">
+    <view class="box">
+      <view class="first_block">
+        <image class="touxiang" src="{{itemName.face_url}}"></image>
+        <view class="person">
+          <text class="name">{{itemName.user_name}}</text>
+          <view class="showtime"><text >{{itemName.send_timestamp}}</text></view>
+        </view> 
+      </view>
+      <view class="second_block">
+        <text class="content">{{itemName.content}}</text>
+      </view>  
+      <view class="third_block" >
+        <view class="comment_picture" bindtap="comment"><image src="/pages/community/comment.png"></image></view>
+        <view class="delate_picture" bindtap="delate"><image src="/pages/community/delate.png"></image></view>
+      </view>
+
+      <view class="comment">
+        <view class="comment_1">
+          <view class="comment_user">{{itemName.comment_user}}：</view>
+          <view class="comment_content">{{itemName.comment}}</view>
+        </view>  
+        <view class="comment_time">{{itemName.comment_time}}</view>  
+      </view>
+    </view>
+  </block>
+</scroll-view>

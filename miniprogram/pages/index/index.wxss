@@ -1,0 +1,17 @@
+.title image{
+  width: 750rpx;
+  height: 300rpx;
+}
+.title text{
+  font-size: 40rpx;
+  font-weight: 90rpx;
+  display: flex;
+  justify-content: center;
+}
+.tuwen-btns button{
+  margin-top: 4vh;
+  color: #36648B;
+  font-size:20px;
+  width: 100%;
+  line-height: 3;
+}

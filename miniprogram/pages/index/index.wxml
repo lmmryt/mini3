@@ -1,0 +1,12 @@
+<view class="title">
+  <image src="/static/rehab.png"></image>
+  <text>膝关节置换术术后康复指南</text>
+</view>
+<view class="tuwen-btns">
+  <button bindtap="gotow1">第一周至第二周</button>
+  <button bindtap="gotow2">第二周至第四周</button>
+  <button bindtap="gotow4">第四周至第六周</button>
+</view>
+
+
+

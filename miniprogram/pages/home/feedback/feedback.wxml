@@ -1,0 +1,16 @@
+<!--pages/home/feedback/feedback.wxml-->
+<view class="page">
+  <view class="detail">  
+    <view class="detaildemand"> 
+    {{showvalue}}
+    <textarea class="demand" style="display:{{dp}}" placeholder-class='demandpcl' value='{{realvalue}}' bindinput='inputs' maxlength='5000' placeholder="请您详细描述您的问题"></textarea> 
+    </view>
+    
+</view>
+ <view class='choose'>  
+    <view class="buttonview">
+      <button type="primary" class="buttonsize" bindtap="sendinfo">提交问题</button>
+    </view>
+ </view>
+</view>
+

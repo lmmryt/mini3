@@ -1,0 +1,11 @@
+<!--pages/problem/problem.wxml-->
+
+<view class="btns">
+  <text>常见并发症解决措施</text>
+  <button type="primary" bindtap="DVT">下肢深静脉血栓</button>
+  <button type="primary" bindtap="mulnutrition">营养失调</button>
+  <button bindtap="pain">疼痛</button>
+  <button bindtap="ankylosis">关节僵硬</button>
+  <button bindtap="anxiety">焦虑</button>
+  
+</view>

@@ -1,0 +1,30 @@
+/* pages/home/feedback/feedback.wxss */
+.page{
+  background-color: #fff;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+.detail .detaildemand{
+  margin-left: 30rpx;
+  word-wrap:break-word;
+  word-spacing:30rpx;
+  margin-right: 30rpx;
+  height: 400rpx;
+  margin-top: 20rpx;
+  border-bottom: 1px solid #ececec;
+} 
+
+/* 按钮样式 */
+.buttonview{
+  text-align: center; 
+  margin-top: 50rpx;
+  margin-bottom: 50rpx;
+}
+.buttonsize{
+    margin-top: 30rpx;
+  width: 90%;
+  margin-left: 6%;
+  line-height: 100rpx;
+  height: 100rpx;
+} 

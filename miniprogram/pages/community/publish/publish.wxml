@@ -1,0 +1,16 @@
+<!--pages/community/publish/publish.wxml-->
+
+<view class="page">
+  <view class="detail">  
+    <view class="detaildemand"> 
+    {{show_publish}}
+    <textarea  value='{{publish}}' bindinput='inputs' maxlength='5000' placeholder="写下您的问题"></textarea> 
+    </view>
+    
+</view>
+ <view class='choose'>  
+    <view class="buttonview">
+      <button type="default" class="buttonsize" bindtap="send_publish">发送</button>
+    </view>
+ </view>
+</view>
