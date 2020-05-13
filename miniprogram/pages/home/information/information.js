@@ -1,32 +1,25 @@
-// pages/home/information/information.js
+import {
+  GetRemarkServlet
+} from '../../../service/addRemark.js';
+const app = getApp()
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-
+    openid: ""
   },
 
-  /**
-   * 生命周期函数--监听页面加载
-   */
   onLoad: function (options) {
-
+    this.setData({
+      openid: app.globalData.openid
+    })
   },
-
-  /**
-   * 生命周期函数--监听页面初次渲染完成
-   */
-  onReady: function () {
-
-  },
-
-  /**
-   * 生命周期函数--监听页面显示
-   */
   onShow: function () {
-
+    GetRemarkServlet(this.data.openid).then(res => {
+      console.log(res)
+    })
   },
 
   /**

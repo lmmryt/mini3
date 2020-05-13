@@ -5,29 +5,29 @@
 </view>
 
 <scroll-view class="scbg" scroll-y='true'>
-  <block wx:for="{{list}}" wx:for-index="idx" wx:for-item="itemName">
+  <block wx:for="{{list}}" wx:for-index="idx" wx:for-item="itemName" wx:key="id">
     <view class="box">
       <view class="first_block">
-        <image class="touxiang" src="{{itemName.face_url}}"></image>
+        <image class="touxiang" src="{{itemName.userImg}}"></image>
         <view class="person">
-          <text class="name">{{itemName.user_name}}</text>
-          <view class="showtime"><text >{{itemName.send_timestamp}}</text></view>
+          <text class="name">{{itemName.userName}}</text>
+          <view class="showtime"><text >{{itemName.dateTime}}</text></view>
         </view> 
       </view>
       <view class="second_block">
         <text class="content">{{itemName.content}}</text>
       </view>  
       <view class="third_block" >
-        <view class="comment_picture" bindtap="comment"><image src="/pages/community/comment.png"></image></view>
+        <view class="comment_picture" bindtap="comment" data-contentId="{{itemName.id}}"><image src="/pages/community/comment.png"></image></view>
         <view class="delate_picture" bindtap="delate"><image src="/pages/community/delate.png"></image></view>
       </view>
 
-      <view class="comment">
+      <view class="comment" wx:for="{{itemName.remarkTwoList}}" wx:key="id">
         <view class="comment_1">
-          <view class="comment_user">{{itemName.comment_user}}：</view>
-          <view class="comment_content">{{itemName.comment}}</view>
+          <view class="comment_user">{{item.userName}}：</view>
+          <view class="comment_content">{{item.content}}</view>
         </view>  
-        <view class="comment_time">{{itemName.comment_time}}</view>  
+        <view class="comment_time">{{item.dateTime}}</view>  
       </view>
     </view>
   </block>
