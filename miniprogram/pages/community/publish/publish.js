@@ -67,8 +67,8 @@ Page({
   },
   onLoad: function (options) {
     console.log(options)
-    const {commentId,show_publish} = options;
-    this.setData({commentId,show_publish})
+    const {contentId,show_publish} = options;
+    this.setData({contentId,show_publish})
   },
   onShow: function () {
 

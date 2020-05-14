@@ -18,7 +18,7 @@
         <text class="content">{{itemName.content}}</text>
       </view>  
       <view class="third_block" >
-        <view class="comment_picture" bindtap="comment" data-contentId="{{itemName.id}}" data-con="{itemName.content}"><image src="/pages/community/comment.png"></image></view>
+        <view class="comment_picture" bindtap="comment" data-contentId="{{itemName.id}}" data-con="{{itemName.content}}"><image src="/pages/community/comment.png"></image></view>
         <view class="delate_picture" bindtap="delate"><image src="/pages/community/delate.png"></image></view>
       </view>
 
