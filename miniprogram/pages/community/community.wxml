@@ -23,7 +23,7 @@
       </view>
 
       <view class="comment" wx:for="{{itemName.remarkTwoList}}" wx:key="id">
-        <view class="comment_1">
+        <view class="comment_1" bindlongtap="delcomment">
           <view class="comment_user">{{item.userName}}：</view>
           <view class="comment_content">{{item.content}}</view>
         </view>  
