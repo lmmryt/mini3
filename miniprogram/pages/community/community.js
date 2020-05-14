@@ -55,10 +55,12 @@ Page({
 
   },
   // 回复评论
-  comment(commentId) {
+  comment(e) {
+    console.log(e.currentTarget)
+    const {contentId,con} = e.currentTarget.dataset;
+    wx.navigateTo({
+      url: `/pages/community/publish/publish?commentId=${contentId}&show_publish=${con}`,
+    })
 
-    // AddRemarkServlet().then(res => {
-
-    // })
   }
 })
